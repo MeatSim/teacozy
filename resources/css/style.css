@@ -1,0 +1,49 @@
+/* general */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  /*text-align: center;*/
+  padding: 0
+  border: 0
+}
+
+/* header */
+
+.logo {
+  padding: 10px 10px 9px 10px;
+}
+
+.logo img {
+  max-height: 50px;
+  width: auto;
+}
+
+.header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+  display: inline-flex;
+}
+
+.header nav {
+  text-align: right;
+  align-content: center;
+  justify-content: flex-end;
+  flex-grow: 1;
+  padding: 20px 23px;
+}
+
+.header span {
+  padding: 0 10px;
+
+}
+
+.header a {
+  color: seashell;
+}
