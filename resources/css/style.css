@@ -11,6 +11,10 @@ body {
   border: 0
 }
 
+h2, h4, h5 {
+  text-align: center;
+}
+
 /* header */
 
 .logo {
@@ -27,8 +31,9 @@ body {
   width: 100%;
   border-bottom: 1px solid seashell;
   position: fixed;
-  z-index: 1;
+  z-index: 5;
   display: inline-flex;
+  background-color: inherit;
 }
 
 .header nav {
@@ -41,9 +46,31 @@ body {
 
 .header span {
   padding: 0 10px;
-
 }
 
 .header a {
   color: seashell;
+}
+
+/* Our Mission */
+
+.mission {
+  padding-top: 70px;
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/background.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mission {
+  background-color: black;
+  width: 100%;
+
+}
+
+#mission h2, h4 {
+  margin: 0;
+  padding: 10px 0;
 }
