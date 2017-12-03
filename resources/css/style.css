@@ -125,7 +125,7 @@ h2, h3, h4, h5, p {
 .location {
   background-color: black;
   opacity: 1;
-  height: 260px;
+  height: 240px;
   width: 300px;
   margin: 15px 20px;
   padding: 20px 0;
@@ -133,4 +133,20 @@ h2, h3, h4, h5, p {
 
 .location p {
   margin: 22px 0;
+}
+
+/* Contact */
+
+.contact {
+  height: 200px;
+}
+
+/* Footer */
+
+.footer {
+  padding-left: 20px;
+}
+
+.footer h5 {
+  text-align: left;
 }
